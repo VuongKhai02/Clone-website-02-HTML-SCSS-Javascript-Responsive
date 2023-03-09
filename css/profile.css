@@ -1,0 +1,59 @@
+html, body {
+  font-family: sarabun;
+  font-size: 16px;
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .row .col-xl-6 .introduce {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+}
+.container .row .col-xl-6 .introduce .introduce-text p {
+  color: #013c8c;
+}
+.container .row .col-xl-6 .introduce .introduce-text h1 {
+  font-size: 4rem;
+}
+.container .row .col-xl-6 .introduce .introduce-btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .row .col-xl-6 .introduce .introduce-btn a {
+  width: 49%;
+  margin-right: 3px;
+  padding: 1rem 2rem;
+  background-color: #013c8c;
+  color: #fff;
+  margin-bottom: 2px;
+}
+.container .row .col-xl-6 .introduce .introduce-btn a:last-child {
+  width: 100%;
+  text-align: center;
+}
+img{
+  animation: round 50s infinite;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=profile.css.map */
+@keyframes round {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+
+  }
+}

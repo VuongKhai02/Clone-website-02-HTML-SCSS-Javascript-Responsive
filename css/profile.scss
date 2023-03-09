@@ -1,0 +1,58 @@
+html,body{
+    font-family: sarabun;
+    font-size: 16px;
+}
+
+.container{
+    
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .col-xl-6{
+            .introduce{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                width: 60%;
+                .introduce-text{
+                    p{
+                        color: #013c8c;
+                    }
+                    h1{
+                        font-size: 4rem;
+                    }
+                }
+                .introduce-btn{
+                    display: flex;
+                    flex-wrap: wrap;
+                    div{
+
+                    }
+                    a{
+                        width: 49%;
+                        margin-right: 3px;
+                        padding: 1rem 2rem;
+                        background-color: #013c8c;
+                        color: #fff;
+                        margin-bottom: 2px;
+                        i{
+                        }
+                        &:last-child{
+                            width: 100%;
+                            text-align: center;
+                        }
+                    }
+
+
+                }
+                .introduce-copyright{
+                }
+            }
+        }
+        .col-xl-6{
+            
+        }
+
+    }
+}
